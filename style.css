@@ -1,0 +1,59 @@
+body {
+    background-size: contain;
+}
+
+.heading {
+    font-size: 50px;
+    width: 100%;
+    line-height: 2;
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(255, 255, 255);
+}
+
+.heading:hover {
+    font-size: 51px;
+    width: 100%;
+    line-height: 2;
+    margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+canvas {
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px grey;
+}
+
+.items{
+    margin: 30px;
+    font-size: 32;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+    background-color: rgb(0, 170, 255);
+    width: 12%;
+    height: 4%;
+}
+
+.items:hover{
+    margin: 30px;
+    font-size: 34;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: rgb(0, 170, 255);
+    width: 13%;
+    height: 5%;
+}
+
+.copy_right_footer{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+ }
